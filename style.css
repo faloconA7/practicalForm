@@ -1,5 +1,43 @@
 body{
-    background: #000;
-    color: aliceblue;
+    font-family:sans-serif;
+    
 }
 
+.container{
+    width:400px;
+    margin: 80px auto;
+    padding:30px;
+    border-radius:10px;
+}
+
+.form-group{
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100px;
+    padding:12px;
+    border:none;
+    background:#007bff;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
